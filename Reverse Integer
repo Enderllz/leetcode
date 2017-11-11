@@ -1,0 +1,35 @@
+"""
+Given a 32-bit signed integer, reverse digits of an integer.
+
+Example 1:
+
+Input: 123
+Output:  321
+Example 2:
+
+Input: -123
+Output: -321
+Example 3:
+
+Input: 120
+Output: 21
+Note:
+Assume we are dealing with an environment which could only hold integers within the 32-bit signed integer range. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+"""
+class Solution:
+    def reverse(self, x):
+        if -10<x<10 :
+            return x
+        n1=abs(x)
+        b=str(n1)
+        v=''
+        for i in range(len(b)):
+            v=v+b[-(i+1)]
+        result=int(v)
+        if x<0:
+            result=-result
+
+        if -2147483648 < result < 2147483647:
+            return result
+        else:
+            return 0
