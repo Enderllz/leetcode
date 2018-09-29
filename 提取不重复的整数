@@ -1,0 +1,13 @@
+输入一个int型整数，按照从右向左的阅读顺序，返回一个不含重复数字的新的整数。
+
+s=input()
+a=[]
+for i in range(len(s)):
+    if s[-i-1] in a:
+        pass
+    else:
+        a.append(s[-i-1])
+b=''
+for i in a:
+    b+=i
+print(int(b)
