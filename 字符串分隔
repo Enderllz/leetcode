@@ -1,0 +1,19 @@
+•连续输入字符串，请按长度为8拆分每个字符串后输出到新的字符串数组； 
+•长度不是8整数倍的字符串请在后面补数字0，空字符串不处理。 
+
+
+while True:
+    try:
+        s1 = input()
+        s2 = input()
+        r1 = [s1[i:i+8] for i in range(0,len(s1),8)]
+        r2 = [s2[i:i+8] for i in range(0,len(s2),8)]
+        r = r1 + r2
+        for i in r:
+            if len(i)<8:
+                x = i + (8 - len(i)) * '0'
+                print(x)
+            else:
+                print(i)
+    except:
+        break
