@@ -1,0 +1,11 @@
+写出一个程序，接受一个由字母和数字组成的字符串，和一个字符，然后输出输入字符串中含有该字符的个数。不区分大小写。
+
+s=input()
+v=input()
+c=0
+for i in range(len(s)):
+    if s[i].lower()==v:
+        c+=1
+    else:
+        pass
+print(c)
