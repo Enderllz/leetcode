@@ -1,0 +1,35 @@
+功能:输入一个正整数，按照从小到大的顺序输出它的所有质数的因子（如180的质数因子为2 2 3 3 5 ）
+
+最后一个数后面也要有空格
+
+详细描述：
+
+
+函数接口说明：
+
+public String getResult(long ulDataInput)
+
+输入参数：
+
+long ulDataInput：输入的正整数
+
+返回值：
+
+String
+
+
+###############
+n=int(input())
+def fun(x):
+    iszhi = 1
+    for i in range(2, int(x ** 0.5 + 2)):
+        if x % i == 0:
+            iszhi = 0
+            print(str(i),end=' ')
+            fun(int(x / i))
+            break
+    if iszhi == 1:
+        print(str(x),end=' ')
+ 
+ 
+fun(n)
