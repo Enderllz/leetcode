@@ -1,4 +1,4 @@
-#python is**** 的用法
+# python is**** 的用法
 
 ##1️⃣Python isalnum()方法
 - Python isalnum() 方法检测字符串是否由字母和数字组成。
