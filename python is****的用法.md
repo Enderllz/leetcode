@@ -1,6 +1,6 @@
 # python is**** 的用法
 
-##1️⃣Python isalnum()方法
+## 1️⃣Python isalnum()方法
 - Python isalnum() 方法检测字符串是否由字母和数字组成。
 
 ```
@@ -16,7 +16,7 @@ print str.isalnum();
 True
 False
 ```
-##2️⃣Python isalpha()方法
+## 2️⃣Python isalpha()方法
 
 - Python isalpha() 方法检测字符串是否只由字母组成。
 
@@ -33,7 +33,7 @@ True
 False
 ```
 
-##3️⃣Python isdecimal()方法
+## 3️⃣Python isdecimal()方法
 
 - Python isdecimal() 方法检查字符串是否只包含十进制字符。这种方法只存在于unicode对象。
 - 注意:定义一个十进制字符串，只需要在字符串前添加 'u' 前缀即可。
@@ -52,7 +52,7 @@ False
 True
 ```
 
-##4️⃣Python isdigit()方法
+## 4️⃣Python isdigit()方法
 - Python isdigit() 方法检测字符串是否只由数字组成。
 
 
@@ -69,7 +69,7 @@ True
 False
 ```
 
-##5️⃣Python islower()方法
+## 5️⃣Python islower()方法
 
 - Python islower() 方法检测字符串是否由小写字母组成。
 
@@ -86,7 +86,7 @@ False
 True
 ```
 
-##6️⃣Python isnumeric()方法
+## 6️⃣Python isnumeric()方法
 - Python isnumeric() 方法检测字符串是否只由数字组成。这种方法是只针对unicode对象。
 
 - 注：定义一个字符串为Unicode，只需要在字符串前添加 'u' 前缀即可
@@ -104,7 +104,7 @@ False
 True
 ```
 
-##7️⃣Python isspace()方法
+## 7️⃣Python isspace()方法
 
 - Python isspace() 方法检测字符串是否只由空格组成。
 
@@ -122,7 +122,7 @@ True
 False
 ```
 
-##8️⃣Python istitle()方法
+## 8️⃣Python istitle()方法
 - Python istitle() 方法检测字符串中所有的单词拼写首字母是否为大写，且其他字母为小写。
 
 
@@ -140,7 +140,7 @@ True
 False
 ```
 
-##9️⃣Python isupper()方法
+## 9️⃣Python isupper()方法
 
 - Python isupper() 方法检测字符串中所有的字母是否都为大写。
 
@@ -157,8 +157,8 @@ True
 False
 ```
 
-##1️⃣0️⃣Python isidentifier()方法
-##1️⃣1️⃣Python isprintable()方法
+## 1️⃣0️⃣Python isidentifier()方法
+## 1️⃣1️⃣Python isprintable()方法
 
 
 
